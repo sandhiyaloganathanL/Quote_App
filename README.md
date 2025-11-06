@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Daily Wisdom - Quote App
 
-## Getting Started
+A modern, responsive quote application that displays inspirational quotes with favorite functionality.
 
-First, run the development server:
+## 🚀 Live Demo
+**Live URL:** https://quote-app-liard-ten.vercel.app/
 
-```bash
+## 📁 GitHub Repository
+**Repository Link:** https://github.com/sandhiyaloganathanL/Quote_App
+
+## 🛠 Tech Stack Used
+- **Framework**: Next.js 16
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Custom SVG icons
+- **State Management**: React Hooks
+- **Storage**: localStorage
+- **API Handling**: Fetch API
+
+## 🏃‍♂️ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sandhiyaloganathanL/Quote_App.git
+   cd Quote_App
+Install dependencies
+
+bash
+npm install
+Run development server
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open browser
+Navigate to http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Design & UX Choices
+Design Philosophy
+Minimal & Clean: Focus on content with minimal distractions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Responsive: Mobile-first design that works on all devices
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Accessible: Proper color contrast and keyboard navigation
 
-## Learn More
+Key Features
+Dynamic Quotes: Fetches random quotes from API
 
-To learn more about Next.js, take a look at the following resources:
+Favorites: Save and manage favorite quotes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dark/Light Mode: Toggle between themes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Smooth Animations: Fade transitions for better experience
 
-## Deploy on Vercel
+Offline Support: Fallback quotes when API is unavailable
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+API Integration
+GET API: Fetches quotes from https://aot-api.vercel.app/quote
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+POST API: Mock API calls to JSONPlaceholder for favorites
+
+Error Handling: Graceful fallbacks and user feedback
+
+Loading States: Visual feedback during API calls
+
+User Experience
+Instant feedback for all user actions
+
+Loading states during API calls
+
+Error handling with helpful messages
+
+Intuitive favorite management
+
+All assignment requirements completed:
+✅ API Integration with GET/POST requests
+✅ Responsive design for desktop and mobile
+✅ Next.js with TypeScript and Tailwind CSS
+✅ State management with React hooks
+✅ Light/dark mode toggle
+✅ Animations and localStorage caching
+✅ Favorite quotes feature
+✅ Hosted on Vercel
+✅ Fetch API implementation
+✅ Error handling and loading states
